@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android Task App</string>
+    <string name="task_one_text">Task 1:\nDisplay all items grouped by \'listId\'.</string>
+    <string name="task_one_button">See more about Task 1</string>
+    <string name="task_two_text">Task 2:\nSort the results first by \'listId\' then by \'name\' when displaying.</string>
+    <string name="task_two_button">See more about Task 2</string>
+    <string name="task_three_text">Task 3:\nFilter out any items where \'name\' is blank or null.</string>
+    <string name="task_three_button">See more about Task 3</string>
+    <string name="item_id">Item Id:</string>
+    <string name="list_id">List Id:</string>
+    <string name="name">Name:</string>
+</resources>
