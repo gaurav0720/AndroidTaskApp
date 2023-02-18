@@ -16,7 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".PerformingTask" />
+        <activity android:name=".PerformingTask"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -62,16 +62,8 @@ public class PerformingTask extends AppCompatActivity {
                 progressBar.dismiss();
                 Toast.makeText(PerformingTask.this, "Data imported successfully", Toast.LENGTH_SHORT).show();
                 for (int i = 0; i < response.length(); i++) {
-                    // creating a new json object and
-                    // getting each object from our json array.
                     try {
-                        // we are getting each json object.
                         JSONObject responseObj = response.getJSONObject(i);
-
-                        // now we get our response from API in json object format.
-                        // in below line we are extracting a string with
-                        // its key value from our json object.
-                        // similarly we are extracting all the strings from our json object.
                         Integer id = responseObj.getInt("id");
                         Integer listId = responseObj.getInt("listId");
                         String name = responseObj.getString("name");
