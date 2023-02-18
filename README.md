@@ -1,5 +1,7 @@
 # AndroidTaskApp
 An Android Application Development Task assigned by a company for the evaluation of the coding skills and the understandings regarding the development.
+
+
 Step 1: Create a new Android Studio project
 Create a new Android Studio project with an empty activity.
 
