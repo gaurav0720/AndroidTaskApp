@@ -1,4 +1,4 @@
-package com.example.androidtaskapp;
+package com.example.fetch_task;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.androidtaskapp", appContext.getPackageName());
+        assertEquals("com.example.fetch_task", appContext.getPackageName());
     }
 }

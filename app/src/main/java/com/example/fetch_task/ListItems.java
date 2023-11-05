@@ -1,4 +1,4 @@
-package com.example.androidtaskapp;
+package com.example.fetch_task;
 
 public class ListItems {
 

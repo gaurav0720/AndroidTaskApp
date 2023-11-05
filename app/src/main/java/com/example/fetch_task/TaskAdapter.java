@@ -1,4 +1,4 @@
-package com.example.androidtaskapp;
+package com.example.fetch_task;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -6,10 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.android.application.R;
+
 import java.util.ArrayList;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 
 public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder>  {
 
